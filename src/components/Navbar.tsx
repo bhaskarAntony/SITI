@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4 text-white'
       }`}
-      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
+     
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
@@ -72,42 +72,49 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
                     <Link
                       to="/courses/mern-stack"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       MERN Stack
                     </Link>
                     <Link
                       to="/courses/mean-stack"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       MEAN Stack
                     </Link>
                     <Link
                       to="/courses/python"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       Python
                     </Link>
                     <Link
                       to="/courses/java"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       Java
                     </Link>
                     <Link
                       to="/courses/digital-marketing"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       Digital Marketing
                     </Link>
                     <Link
                       to="/courses/cloud-computing"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       Cloud Computing
                     </Link>
                     <Link
                       to="/courses/devops"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded-md"
+                      style={scrolled?{color:"white"}:{fontStyle:'normal'}}
                     >
                       DevOps
                     </Link>
@@ -121,6 +128,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
               className={`font-medium hover:text-green-600 transition-colors ${
                 location.pathname === '/about' ? 'text-green-600' : 'text-gray-700'
               }`}
+              style={scrolled?{color:"white"}:{fontStyle:'normal'}}
             >
               About
             </Link>
@@ -130,6 +138,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
               className={`font-medium hover:text-green-600 transition-colors ${
                 location.pathname === '/blog' ? 'text-green-600' : 'text-gray-700'
               }`}
+              style={scrolled?{color:"white"}:{fontStyle:'normal'}}
             >
               Blog
             </Link>
@@ -139,6 +148,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
               className={`font-medium hover:text-green-600 transition-colors ${
                 location.pathname === '/contact' ? 'text-green-600' : 'text-gray-700'
               }`}
+              style={scrolled?{color:"white"}:{fontStyle:'normal'}}
             >
               Contact
             </Link>
