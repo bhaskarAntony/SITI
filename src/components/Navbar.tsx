@@ -148,7 +148,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, toggleSidebar }) => {
               className={`font-medium hover:text-green-600 transition-colors ${
                 location.pathname === '/contact' ? 'text-green-600' : 'text-gray-700'
               }`}
-              style={scrolled?{color:"white"}:{fontStyle:'normal'}}
+              style={scrolled?{color:"white"}:{color:'#3c4555'}}
             >
               Contact
             </Link>

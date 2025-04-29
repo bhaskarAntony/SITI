@@ -1,4 +1,4 @@
-import { CheckCircle, Star, Clock, Calendar, User, Award, Code, Database, Server, Globe, ArrowRight } from 'lucide-react';
+import { CheckCircle, Star, Clock, Calendar, User, Award, Code, Database, Server, Globe, ArrowRight, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import CallToAction from '../../components/CallToAction';
 import FAQ from '../../components/FAQ';
